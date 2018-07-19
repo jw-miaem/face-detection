@@ -1,0 +1,55 @@
+/* custom css */
+
+p {
+    color: red;
+}
+
+#filters {
+    display: none;
+}
+
+#filter-btn,
+#filter-remove-btn {
+    display: block;
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#filter-btn:after,
+#filter-remove-btn:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.container.app {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.face-container {
+    background: none;
+    position: relative;
+    margin: 0 auto;
+}
+
+.face-container:-moz-full-screen {
+    width: 50%;
+}
+
+.face-container:-webkit-full-screen {
+    width: 50%;
+}
+
+.face-container:fullscreen {
+    width: 100%;
+}
+
+.face-container #face-video {
+    position: absolute;
+}
+
+.face-container #face-canvas {
+    position: relative;
+}
