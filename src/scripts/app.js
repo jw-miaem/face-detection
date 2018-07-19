@@ -160,7 +160,7 @@ $(function() {
     }
 
     function launchCamera() {
-        console.log("launch camera");
+        // console.log("launch camera");
         start_btn.remove();
         // content_div.append(
         //     "<video id='face-video' width='448' height='336' preload autoplay loop muted></video>"
@@ -229,7 +229,7 @@ $(function() {
 
     function init() {
         if (navigator.getUserMedia) {
-            console.log("init app");
+            // console.log("init app");
             start_btn.on("click touchstart", function() {
                 launchCamera();
             });
