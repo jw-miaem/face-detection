@@ -75,10 +75,10 @@ $(function() {
             insertText("Align face Come closer");
             // console.log("Come closer");
         } else if (rect.x + rect.width >= bounds.right) {
-            insertText("Align face Move left");
+            insertText("Align face Move right");
             // console.log("Move left");
         } else if (rect.x <= bounds.left) {
-            insertText("Align face Move right");
+            insertText("Align face Move left");
             // console.log("Move right");
         } else {
             insertText("Ready");
